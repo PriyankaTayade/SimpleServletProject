@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Simple form</title>
+</head>
+<body>
+	<table>
+	<form method="post" action="xmlServletPath" >
+		<tr>
+		<td>First Name<input name="firstName" /></td></tr>
+		<tr><td>Last Name<input name="lastName"/></td></tr>
+		<tr><td>Profession:</td>
+		<td><input type="radio" name="prof" value="Developer" >Developer</input>
+		<input type="radio" name="prof" value="Architect" >Architect</input></td></tr>
+		<tr><td>
+		<select name="location" multiple size=3>
+			<option value="california">california</option>
+			<option value="newyork">newyork</option>
+			<option value="florida">florida</option>		
+			<option value="seattle">seattle</option>
+			<option value="colorado">colorado</option>	
+			<option value="arizona">arizona</option>
+		</select>
+		<input type="submit" />
+	</form>
+	</table>
+</body>
+</html>
